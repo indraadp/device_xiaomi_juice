@@ -37,3 +37,6 @@ ro.com.google.ime.kb_pad_port_r=8.0
 ro.com.google.ime.kb_pad_port_l=8.0
 ro.com.google.ime.kb_pad_land_r=96.0
 ro.com.google.ime.kb_pad_land_l=96.0
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
