@@ -48,3 +48,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.charger.enable_suspend=true
 
+# SurfaceFlinger brightness tweak
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.force_light_brightness=1
