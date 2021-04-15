@@ -6,13 +6,13 @@
 
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common Derp stuff.
+# Inherit some common Dot stuff.
 WITH_GAPPS := true
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_juice
+PRODUCT_NAME := dot_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115

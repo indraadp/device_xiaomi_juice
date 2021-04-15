@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_juice.mk
+    $(LOCAL_DIR)/dot_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_juice-user \
-    derp_juice-userdebug \
-    derp_juice-eng
+    dot_juice-user \
+    dot_juice-userdebug \
+    dot_juice-eng
