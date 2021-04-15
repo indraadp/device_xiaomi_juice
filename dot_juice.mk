@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 WITH_GAPPS := true
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_juice
