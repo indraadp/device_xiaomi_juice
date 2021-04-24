@@ -27,6 +27,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := bengal
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
