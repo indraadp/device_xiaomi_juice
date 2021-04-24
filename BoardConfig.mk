@@ -70,6 +70,10 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_juice
+TARGET_RECOVERY_DEVICE_MODULES := libinit_juice
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     console=ttyMSM0,115200n8 \
