@@ -35,3 +35,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Add default implementation of fastboot HAL.
 PRODUCT_PACKAGES += android.hardware.fastboot@1.0-impl-mock
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
