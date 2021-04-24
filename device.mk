@@ -20,3 +20,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/juice/juice-vendor.mk)
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
+
+# Target VNDK
+PRODUCT_TARGET_VNDK_VERSION := 30
