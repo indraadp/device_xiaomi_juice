@@ -49,4 +49,5 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/bluetooth_audio_policy_configuration.xml
 
 PRODUCT_PACKAGES += \
-    AospFrameworkResOverlay
+    AospFrameworkResOverlay \
+    AospWifiResOverlay
