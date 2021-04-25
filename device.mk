@@ -51,4 +51,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AospFrameworkResOverlay \
     AospWifiResOverlay \
-    GmsTelecommOverlay
+    GmsTelecommOverlay \
+    GmsTelephonyOverlay
