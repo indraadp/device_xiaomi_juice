@@ -54,4 +54,5 @@ PRODUCT_PACKAGES += \
     GmsTelecommOverlay \
     GmsTelephonyOverlay \
     CarrierConfigResCommon \
-    CellBroadcastReceiverResCommon
+    CellBroadcastReceiverResCommon \
+    FrameworksResCommon
