@@ -56,4 +56,5 @@ PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     CellBroadcastReceiverResCommon \
     FrameworksResCommon \
-    FrameworksResTarget
+    FrameworksResTarget \
+    SystemUIResCommon
