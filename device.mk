@@ -52,4 +52,5 @@ PRODUCT_PACKAGES += \
     AospFrameworkResOverlay \
     AospWifiResOverlay \
     GmsTelecommOverlay \
-    GmsTelephonyOverlay
+    GmsTelephonyOverlay \
+    CarrierConfigResCommon
