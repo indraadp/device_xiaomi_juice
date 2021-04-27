@@ -53,4 +53,5 @@ PRODUCT_PACKAGES += \
     AospWifiResOverlay \
     GmsTelecommOverlay \
     GmsTelephonyOverlay \
-    CarrierConfigResCommon
+    CarrierConfigResCommon \
+    CellBroadcastReceiverResCommon
