@@ -59,4 +59,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SystemUIResCommon \
     TelecommResCommon \
-    TelephonyResCommon
+    TelephonyResCommon \
+    WifiResCommon
+    
