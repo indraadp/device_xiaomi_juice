@@ -57,4 +57,5 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverResCommon \
     FrameworksResCommon \
     FrameworksResTarget \
-    SystemUIResCommon
+    SystemUIResCommon \
+    TelecommResCommon
