@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     tinymix \
     libaudio-resampler
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl \
