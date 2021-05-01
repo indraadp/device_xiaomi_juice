@@ -13,3 +13,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc_overlays=1
+
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.hwui.renderer=skiavk
