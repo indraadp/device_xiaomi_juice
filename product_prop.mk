@@ -9,3 +9,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.bluetooth.library_name=libbluetooth.so 
+
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.hwui.renderer=skiavk
