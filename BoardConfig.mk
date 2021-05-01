@@ -125,6 +125,7 @@ BUILD_WITHOUT_VENDOR := true
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
