@@ -120,7 +120,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
+-include $(LOCAL_PATH)/system_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
 # Remove unwanted packages
@@ -148,4 +148,3 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
-    
