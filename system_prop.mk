@@ -7,3 +7,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.force_ltd_sys_ind=1 \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
+
+# ZRAM
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.zram.mark_idle_delay_mins=60 \
+    ro.zram.first_wb_delay_mins=180 \
+    ro.zram.periodic_wb_delay_hours=24
+
