@@ -43,6 +43,9 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lime,citrus,lemon,pomelo,juice
 
+# Audio
+AUDIO_FEATURE_ENABLED_HDMI_SPK := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
