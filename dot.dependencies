@@ -1,0 +1,6 @@
+[
+  {
+    "repository" : "vendor_xiaomi_juice",
+    "target_path": "vendor/xiaomi/juice"
+  }
+]
