@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system
 
+# Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
