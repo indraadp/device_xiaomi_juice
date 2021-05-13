@@ -642,7 +642,7 @@
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
     <!-- Whether device ignores the RSSNR signal implementation -->
-    <bool name="config_ignoreRssnrSignalLevel">true</bool>
+    <bool name="config_ignoreRssnrSignalLevel">false</bool>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
      <integer name="config_shutdownBatteryTemperature">600</integer>
@@ -815,4 +815,5 @@
     </string-array>
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi-Juice</string>
+
 </resources>
