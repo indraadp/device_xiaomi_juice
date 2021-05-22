@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -110,6 +106,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0 \
     vendor.qti.hardware.perf@2.1 \
     vendor.qti.hardware.perf@2.2
+
+# Prebuilds
+PRODUCT_PACKAGES += \
+    Gcamgo
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
