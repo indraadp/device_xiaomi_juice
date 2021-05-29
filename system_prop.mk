@@ -51,3 +51,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SurfaceFlinger brightness tweak
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.force_light_brightness=1
+
+# Netflix custom property
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.netflix.bsp_rev=Q6115-31409-1
+    
