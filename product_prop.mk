@@ -26,3 +26,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
+
+#Gboard Configuration by Vern
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.corner_key_l=32 \
+    ro.com.google.ime.corner_key_r=32 \
+    ro.com.google.ime.themed_nav_bar_style=2 \
+    ro.com.google.ime.silk_theme=true \
+    ro.com.google.ime.pill_shaped_key=true \
+    ro.com.google.ime.enable_keyboard_redesign=true \
+    ro.com.google.ime.use_keyboard_redesign_theme_by_default=true \
+    ro.com.google.ime.kb_pad_port_r=8.0 \
+    ro.com.google.ime.kb_pad_port_l=8.0 \
+    ro.com.google.ime.kb_pad_land_r=96.0 \
+    ro.com.google.ime.kb_pad_land_l=96.0
