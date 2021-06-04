@@ -4,6 +4,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.hw=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.running_without_sync_framework=true \
+    ro.surface_flinger.use_context_priority=true \
     debug.sf.latch_unsignaled=0
     
 # Always use GPU for screen compositing
