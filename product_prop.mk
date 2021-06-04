@@ -3,6 +3,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
     debug.sf.hw=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.surface_flinger.running_without_sync_framework=true \
     debug.sf.latch_unsignaled=0
     
 # Always use GPU for screen compositing
