@@ -43,6 +43,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Media
 ro.config.vc_call_vol_steps=11
+ro.config.media_vol_steps=25
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
