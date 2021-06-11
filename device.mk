@@ -125,9 +125,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
--include $(LOCAL_PATH)/system_prop.mk
--include $(LOCAL_PATH)/product_prop.mk
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
