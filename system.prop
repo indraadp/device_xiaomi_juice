@@ -41,8 +41,5 @@ ro.vendor.perf.scroll_opt=true
 # Charger
 ro.charger.enable_suspend=true
 
-# SurfaceFlinger brightness tweak
-ro.sf.force_light_brightness=1
-
 # Netflix custom property
 ro.netflix.bsp_rev=Q6115-31409-1
