@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Google Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+    
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
