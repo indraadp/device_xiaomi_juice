@@ -1,3 +1,6 @@
+# Apex
+ro.apex.updatable=false
+
 # Graphics
 debug.hwui.renderer=skiavk
 debug.sf.hw=1

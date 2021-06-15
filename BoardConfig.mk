@@ -39,6 +39,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Apex
 DEXPREOPT_GENERATE_APEX_IMAGE := true
+OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lime,citrus,lemon,pomelo,juice
