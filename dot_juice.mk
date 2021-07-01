@@ -10,7 +10,6 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
