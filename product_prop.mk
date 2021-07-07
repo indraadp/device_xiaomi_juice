@@ -12,7 +12,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
-    debug.sf.latch_unsignaled=1
+    debug.sf.latch_unsignaled=1 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
