@@ -1,1 +1,5 @@
 allow hal_power input_device:dir search;
+allow hal_power sysfs_battery_saver:dir search;
+allow hal_power sysfs_battery_saver:file rw_file_perms;
+allow hal_power sysfs_touchpanel:dir search;
+allow hal_power sysfs_touchpanel:file rw_file_perms;
