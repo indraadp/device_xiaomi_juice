@@ -12,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
-    debug.sf.latch_unsignaled=0
+    debug.sf.latch_unsignaled=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
