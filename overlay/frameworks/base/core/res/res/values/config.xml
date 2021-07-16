@@ -766,4 +766,11 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
+
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
+
 </resources>
