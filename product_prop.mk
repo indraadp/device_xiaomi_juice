@@ -21,9 +21,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.media_vol_default=10 \
-    ro.config.media_vol_steps=15 \
-    ro.config.vc_call_vol_steps=6
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=11
 
 # Power-saving props
 PRODUCT_PROPERTY_OVERRIDES += \
