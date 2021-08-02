@@ -10,6 +10,8 @@ ro.surface_flinger.use_context_priority=true
 ro.config.avoid_gfx_accel=true
 debug.sf.latch_unsignaled=1
 ro.surface_flinger.use_color_management=true
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 
 # Always use GPU for screen compositing
 debug.sf.disable_hwc_overlays=1
