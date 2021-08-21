@@ -18,6 +18,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
+# GApps
+BUILD_WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_juice
 PRODUCT_DEVICE := juice
