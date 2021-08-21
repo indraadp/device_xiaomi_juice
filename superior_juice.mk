@@ -16,7 +16,7 @@ $(call inherit-product, vendor/superior/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
-USE_PIXEL_CHARGING := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_juice
