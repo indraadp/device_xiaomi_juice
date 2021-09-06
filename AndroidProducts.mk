@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_juice.mk
+    $(LOCAL_DIR)/superior_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_juice-user \
-    aosp_juice-userdebug \
-    aosp_juice-eng
+    superior_juice-user \
+    superior_juice-userdebug \
+    superior_juice-eng
