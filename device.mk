@@ -61,14 +61,10 @@ PRODUCT_PACKAGES += \
  PRODUCT_PACKAGES += \
     BluetoothQti
 
-# GalleryGo
-PRODUCT_PACKAGES += \
-    GalleryGo
-
 # Google Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
-
+    
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
