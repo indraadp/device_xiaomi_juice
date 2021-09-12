@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
  PRODUCT_PACKAGES += \
     BluetoothQti
 
+# Google Clock
+PRODUCT_PACKAGES += \
+    GoogleClock
+
 # GalleryGo
 PRODUCT_PACKAGES += \
     GalleryGo
