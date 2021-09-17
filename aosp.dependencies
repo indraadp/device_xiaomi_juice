@@ -1,0 +1,14 @@
+[
+  {
+    "repository" : "indraadp/prebuilt_vendor_juice",
+    "target_path": "vendor/xiaomi/juice",
+    "branch":"A11",
+    "remote":"github"
+  },
+  {
+    "repository" : "indraadp/stormbreaker_kernel_juice",
+    "target_path": "kernel/xiaomi/juice",
+    "branch":"test",
+    "remote":"github"
+  }
+]
