@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Kilitlenme günlüğü URL\'sini kopyala</string>
+    <string name="url_copy_success">URL kopyalandı</string>
+    <string name="url_copy_failed">URL kopyalanamadı</string>
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <!-- Reboot -->
+    <string name="reboot_title">Yeniden başlat</string>
+    <string name="reboot_message">Sistemi Yeniden Başlat</string>
+    <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Aramalar ve bildirimler çalacak</string>
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">SystemUI yeniden başlatılmalı</string>
+    <string name="systemui_restart_message">Tüm değişikliklerin geçerli olması için SystemUI\'nin yeniden başlatılması gerekir. SystemUI şimdi yeniden başlatılsın mı?</string>
+    <!-- Clipboard access toast -->
+    <string name="app_clipboard_access_denied">%1$s Panoya erişim engellendi</string>
+    <string name="app_clipboard_access_granted">%1$s Panoya kopyalandı</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Otomatik</string>
+    <string name="live_display_auto_summary">Gün batımı ve gün doğumundan sonra ekranın renk sıcaklığını otomatik olarak ayarlayın</string>
+    <string name="live_display_off">Kapalı</string>
+    <string name="live_display_off_summary">Tüm ayarlamaları devre dışı bırak</string>
+    <string name="live_display_day">Gün</string>
+    <string name="live_display_day_summary">Yalnızca gün ayarlarını kullan</string>
+    <string name="live_display_night">Gece</string>
+    <string name="live_display_night_summary">Yalnızca gece ayarlarını kullan</string>
+    <string name="live_display_outdoor">Dış mekan (parlak güneş)</string>
+    <string name="live_display_outdoor_summary">Yalnızca dış mekan ayarlarını kullan</string>
+    <string name="live_display_hint">LiveDisplay, göz yorgunluğunu azaltmaya ve geceleri uyumanıza yardımcı olabilir. Denemek için buraya tıklayın!</string>
+    <string name="accessibility_quick_settings_live_display_off">Canlı Ekran kapalı.</string>
+    <string name="accessibility_quick_settings_live_display_auto">Canlı Ekran: otomatik mod.</string>
+    <string name="accessibility_quick_settings_live_display_day">Canlı Ekran: gündüz modu.</string>
+    <string name="accessibility_quick_settings_live_display_night">Canlı Ekran: gece modu.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">Canlı Ekran: dış mekan modu.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">Canlı Ekran kapatıldı.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">Canlı Ekran, otomatik moda geçti.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">Canlı Ekran gündüz moduna değiştirildi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">Canlı Ekran gece moduna değiştirildi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">Canlı Ekran dış mekan moduna değiştirildi.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_view_title">Cep modu açık</string>
+    <string name="pocket_view_title_cancel">Telefonunuzu kullanmak için:</string>
+    <string name="pocket_view_top_tag_cancel">Telefonunuzun mavi alanında herhangi bir engel olup olmadığını kontrol edin ve herhangi bir kiri veya tozu temizleyin.</string>
+    <string name="pocket_view_top_tag_cancel2">Cep modundan çıkmaya zorlamak için güç düğmesine uzun basın.</string>
+    <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_accessFontManager">yazı tipi yöneticisine erişim</string>
+    <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessFontManager">Bir uygulamanın yazı tipi yöneticisine erişmesine izin verir.</string>
+    <!-- [CHAR LIMIT=NONE] Error when a package is installed but got the missing fonts.xml file, notifying the user why it isn't showing up. -->
+    <string name="fontservice_incompatible_font">Yüklediğiniz font paketi fonts.xml dosyası ile uyumlu değil. Lütfen geliştirici ile iletişime geçin.</string>
+</resources>
