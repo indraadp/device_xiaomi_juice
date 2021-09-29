@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_juice.mk
+    $(LOCAL_DIR)/ancient_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_juice-user \
-    superior_juice-userdebug \
-    superior_juice-eng
+    ancient_juice-user \
+    ancient_juice-userdebug \
+    ancient_juice-eng
