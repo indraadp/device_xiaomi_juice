@@ -2,6 +2,9 @@
 ro.apex.updatable=false
 
 # Graphics
+debug.egl.hw=1
+debug.sf.hw=1 
+debug.egl.force.msaa=1 
 debug.hwui.renderer=opengl
 debug.sf.disable_backpressure=1
 ro.surface_flinger.use_color_management=true
@@ -10,9 +13,6 @@ ro.surface_flinger.has_wide_color_display=false
 debug.sf.latch_unsignaled=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
-
-# Always use GPU for screen compositing
-debug.sf.disable_hwc_overlays=1
 
 # Blurs
 ro.surface_flinger.supports_background_blur=1
@@ -28,19 +28,9 @@ pm.sleep_mode=1
 # DRM
 drm.service.enabled=true
 
-#Gboard Configuration by Vern
-ro.com.google.ime.corner_key_l=35
-ro.com.google.ime.corner_key_r=35
-ro.com.google.ime.themed_nav_bar_style=2
-ro.com.google.ime.silk_theme=true
-ro.com.google.ime.pill_shaped_key=true
-ro.com.google.ime.enable_keyboard_redesign=true
-ro.com.google.ime.use_keyboard_redesign_theme_by_default=true
-ro.com.google.ime.kb_pad_port_r=8.0
-ro.com.google.ime.kb_pad_port_l=8.0
-ro.com.google.ime.kb_pad_port_b=1
-ro.com.google.ime.kb_pad_land_r=96.0
-ro.com.google.ime.kb_pad_land_l=96.0
+# Chrome flags
+com.android.chrome.Chrome.Flags.CachedFlag.DynamicColorAndroid=true
+com.android.chrome.Chrome.Flags.CachedFlag.ThemeRefactorAndroid=true
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
