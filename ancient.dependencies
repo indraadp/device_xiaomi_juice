@@ -7,8 +7,14 @@
  },
  {
   "remote": "github",
-   "repository": "ancient-devices/vendor_xiaomi_juice",
-   "target_path": "vendor/xiaomi/juice",
+  "repository": "ancient-devices/vendor_xiaomi_juice",
+  "target_path": "vendor/xiaomi/juice",
   "branch": "eleven"
+ },
+ {
+  "remote": "github",
+  "repository": "GengKapak/GengKapak-clang",
+  "target_path": "prebuilts/clang/host/linux-x86/clang-gengkapak",
+  "branch": "12"
  }
 ]
