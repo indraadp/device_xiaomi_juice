@@ -28,10 +28,6 @@ pm.sleep_mode=1
 # DRM
 drm.service.enabled=true
 
-# Chrome flags
-com.android.chrome.Chrome.Flags.CachedFlag.DynamicColorAndroid=true
-com.android.chrome.Chrome.Flags.CachedFlag.ThemeRefactorAndroid=true
-
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
 
