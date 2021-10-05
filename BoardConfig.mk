@@ -87,12 +87,10 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_juice
 TARGET_RECOVERY_DEVICE_MODULES := libinit_juice
 
-# DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
