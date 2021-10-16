@@ -1,15 +1,15 @@
 [
  {
   "remote": "github",
-  "repository": "ancient-devices/kernel_xiaomi_juice",
+  "repository": "indraadp/kernel_xiaomi_juice",
   "target_path": "kernel/xiaomi/juice",
-  "branch": "eleven"
+  "branch": "test"
  },
  {
   "remote": "github",
-  "repository": "ancient-devices/vendor_xiaomi_juice",
+  "repository": "indraadp/prebuilt_vendor_juice",
   "target_path": "vendor/xiaomi/juice",
-  "branch": "eleven"
+  "branch": "A11"
  },
  {
   "remote": "github",
