@@ -1,9 +1,9 @@
 [
  {
   "remote": "github",
-  "repository": "indraadp/kernel_xiaomi_juice",
+  "repository": "indraadp/Xiaomi-Fury-Bengal-SD662",
   "target_path": "kernel/xiaomi/juice",
-  "branch": "test"
+  "branch": "Inline_Juice"
  },
  {
   "remote": "github",
