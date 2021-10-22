@@ -18,10 +18,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 USE_PIXEL_CHARGING := true
 
-# GApps
-USE_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_juice
 PRODUCT_DEVICE := juice
