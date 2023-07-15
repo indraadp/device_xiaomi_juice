@@ -11,15 +11,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common fluidOS stuff.
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.fluid.maintainer=IndraDP \
+	ro.fluid.cpu=BENGAL
+
+FLUID_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USES_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_USES_BLUR := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_GAPPS := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_juice
+PRODUCT_NAME := fluid_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115
