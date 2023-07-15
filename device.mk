@@ -61,9 +61,9 @@ PRODUCT_PACKAGES += \
  PRODUCT_PACKAGES += \
     BluetoothQti
 
-# Google Camera
+# Graphene Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GrapheneCamera
     
 # Codec2 modules
 PRODUCT_PACKAGES += \
