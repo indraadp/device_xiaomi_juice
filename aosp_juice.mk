@@ -11,15 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common AOSP Extended stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
-ARROW_GAPPS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER_IMAGES := true
+WITH_GAPPS := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_juice
+PRODUCT_NAME := aosp_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115
