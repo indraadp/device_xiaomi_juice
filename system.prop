@@ -44,3 +44,6 @@ ro.charger.enable_suspend=true
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q6115-31409-1
+
+# dotOS Maintainer
+ro.dot.maintainer=IndraDP
